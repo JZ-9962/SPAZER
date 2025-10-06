@@ -1,6 +1,7 @@
 # SPAZER
 SPAZER: Spatial-Semantic Progressive Reasoning Agent for Zero-shot 3D Visual Grounding (NeurIPS 2025)
 
+![Overview of SPAZER framework](fig/method.png)
 
 ### TODO
 - [x] Release inference code
