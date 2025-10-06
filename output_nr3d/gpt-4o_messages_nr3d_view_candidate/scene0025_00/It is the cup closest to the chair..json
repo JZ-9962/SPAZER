@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the cup in this query description: \"It is the cup closest to the chair.\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The target object is the cup closest to the chair. In view 0, the layout of the room is visible from above, showing the positions of the chairs and nearby objects. The cup closest to the chair is most clearly visible in this view, as it provides a clear top-down perspective of the entire room, allowing for easy identification of the cup's proximity to the chair."
+    }
+]

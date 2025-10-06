@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the chair in this query description: \"this is a red office chair.  it is at the end with the tv and to the left.\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The query describes a red office chair located at the end with the TV and to the left. In view 1, the red chair is clearly visible at the end of the room where the TV is located, and it is positioned to the left side. This view provides a clear perspective of the chair's location relative to the TV."
+    },
+    {
+        "role": "user",
+        "content": "Here is the annotated image of the selected view. \nAll objects belonging to the chair class is labeled by a unique number (ID) in red color on it.\nPlease select the object ID that best matches the given query description: \"this is a red office chair.  it is at the end with the tv and to the left.\".\nCarefully analyze the specified conditions (such as shape, color, relative position with surrounding objects) in the given query, then select top-5 best-matched object IDs.\nThe selected top-5 object IDs should be sorted in descending order of confidence.\nThe object ID should be chosen from this list [3, 5, 6, 8, 9, 10, 11, 12, 21, 22, 23, 24]\nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified and ranked the top-5 target object IDs.\n\"object_id\": A list of5 selected target object IDs. e.g., [1, 2, 3, 4, 5]\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The query describes a red office chair located at the end with the TV and to the left. In the image, object ID 23 is a red chair positioned at the far end of the table, which matches the description of being at the end with the TV. It is also to the left from the perspective of the image. Other chairs do not match the color or position as closely. Therefore, object ID 23 is the best match, followed by other IDs based on proximity and partial matching of the description."
+    }
+]

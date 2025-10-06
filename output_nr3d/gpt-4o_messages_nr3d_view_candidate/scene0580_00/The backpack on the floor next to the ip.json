@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the backpack in this query description: \"The backpack on the floor next to the ipad on the bed\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "In view 0, the bed is clearly visible with an iPad on it. Next to the bed on the floor, there is an object that resembles a backpack. This view provides a clear perspective of both the iPad on the bed and the backpack on the floor, making it the best choice for identifying the target object."
+    }
+]

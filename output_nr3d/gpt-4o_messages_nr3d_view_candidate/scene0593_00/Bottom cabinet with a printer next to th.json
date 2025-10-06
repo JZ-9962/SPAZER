@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the cabinet in this query description: \"Bottom cabinet with a printer next to the standing fan\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "In view 4, the bottom cabinet with a printer is clearly visible next to the standing fan. This view provides a clear perspective of the cabinet and its surroundings, making it easy to identify the objects described in the query."
+    },
+    {
+        "role": "user",
+        "content": "Here is the annotated image of the selected view. \nAll objects belonging to the cabinet class is labeled by a unique number (ID) in red color on it.\nPlease select the object ID that best matches the given query description: \"Bottom cabinet with a printer next to the standing fan\".\nCarefully analyze the specified conditions (such as shape, color, relative position with surrounding objects) in the given query, then select top-4 best-matched object IDs.\nThe selected top-4 object IDs should be sorted in descending order of confidence.\nThe object ID should be chosen from this list [0, 12, 16, 17, 18]\nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified and ranked the top-4 target object IDs.\n\"object_id\": A list of4 selected target object IDs. e.g., [1, 2, 3, 4, 5]\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The query describes a 'bottom cabinet with a printer next to the standing fan'. In the image, object ID 17 is a bottom cabinet with a printer on top and is located near a standing fan, making it the best match. Object ID 18 is near the standing fan but does not have a printer on top, so it is the second best match. Object ID 12 is a cabinet but does not fit the description as closely, so it is ranked third. Object ID 16 is a cabinet but does not match the description well, so it is ranked fourth."
+    }
+]

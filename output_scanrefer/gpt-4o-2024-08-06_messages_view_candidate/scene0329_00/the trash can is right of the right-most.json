@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the trash can in this query description: \"the trash can is right of the right-most door on the northern wall. the trash can is a trapezoidal prism and gray.\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The trash can is described as being right of the right-most door on the northern wall and is a gray trapezoidal prism. In view 3, the northern wall with the doors is clearly visible, and the trash can is positioned to the right of the right-most door. The shape and color match the description, making this view the most suitable for identifying the trash can."
+    }
+]

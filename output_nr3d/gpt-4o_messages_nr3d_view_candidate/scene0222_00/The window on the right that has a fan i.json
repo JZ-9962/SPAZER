@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the window in this query description: \"The window on the right that has a fan in front of the middle of it\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The target object is a window on the right side of the room with a fan in front of it. In view 2, the window is clearly visible on the right side, and there is a fan positioned in front of it, matching the description provided."
+    },
+    {
+        "role": "user",
+        "content": "Please select the object ID that best matches the given query description: \"The window on the right that has a fan in front of the middle of it\".\nHere are two images. \nIn the global view image, the detected objects are annotated in different object IDs. \nAnd another image shows all detected objects cropped from 2D images. The same object is annotated in the same ID in both images.\nCarefully analyze the query text to identify key attributes of the target object. \nThen review the annotated 3D scene view and the cropped object images to select 4 object IDs that best matches the given query description.\nThe selected 4 object IDs should be sorted in descending order of confidence.\nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified and ranked the top 4 target object IDs.\n\"object_id\": 4 selected target object IDs. e.g., [1, 2, 3, 4, 5]\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The query describes a window on the right with a fan in front of it. In the global view image, the windows are located on the back wall. Object ID 28 and 29 are windows. In the cropped images, Object ID 29 shows a window with a fan (Object ID 30) in front of it. This matches the description perfectly. Object ID 28 is another window but does not have a fan in front of it. Object ID 30 is the fan itself, which is relevant to the query. Object ID 9 is another fan, but it is not in front of a window. Therefore, the best matches are ranked based on the presence of both the window and the fan."
+    }
+]

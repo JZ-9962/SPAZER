@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the instrument case in this query description: \"the green instrument case has a gray rolled up sleeping bag in front of it. the instrument case is to the left of the white dresser.\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The target object is a green instrument case with a gray rolled-up sleeping bag in front of it, located to the left of a white dresser. In view 3, the green instrument case is clearly visible with the gray sleeping bag in front of it, and it is positioned to the left of the white dresser. This view provides the clearest and most direct perspective of the described arrangement."
+    },
+    {
+        "role": "user",
+        "content": "Please select the object ID that best matches the given query description: \"the green instrument case has a gray rolled up sleeping bag in front of it. the instrument case is to the left of the white dresser.\".\nHere are two images. \nIn the global view image, the detected objects are annotated in different object IDs. \nAnd another image shows all detected objects cropped from 2D images. The same object is annotated in the same ID in two images.\nCarefully analyze the query text to identify key attributes of the target object. \nThen review the annotated 3D scene view and the cropped object images to select 5 object IDs that best matches the given query description.\nThe selected 5 object IDs should be sorted in descending order of confidence.\nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified and ranked the top 5 target object IDs.\n\"object_id\": 5 selected target object IDs. e.g., [1, 2, 3, 4, 5]\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The query describes a green instrument case with a gray rolled-up sleeping bag in front of it, located to the left of a white dresser. In the global view, object ID 16 appears to be a green case, and object ID 58 is a gray item that resembles a rolled-up sleeping bag, positioned in front of it. The dresser is likely object ID 10, which is to the right of object ID 16. Therefore, object ID 16 is the best match. Other nearby objects that could potentially match the description are considered with lower confidence."
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the chair in this query description: \"this is a yellow office chair. it is facing the table.\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The target object is a yellow office chair facing the table. In view 0, the yellow chair is clearly visible and positioned directly facing the table, making it the most suitable view to identify the chair as described in the query."
+    },
+    {
+        "role": "user",
+        "content": "Here is the annotated image of the selected view. \nAll objects belonging to the chair class is labeled by a unique number (ID) in red color on it.\nPlease select the object ID that best matches the given query description: \"this is a yellow office chair. it is facing the table.\".\nCarefully analyze the specified conditions (such as shape, color, relative position with surrounding objects) in the given query, then select top-5 best-matched object IDs.\nThe selected top-5 object IDs should be sorted in descending order of confidence.\nThe object ID should be chosen from this list [0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 18, 21]\nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified and ranked the top-5 target object IDs.\n\"object_id\": A list of5 selected target object IDs. e.g., [1, 2, 3, 4, 5]\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The query specifies a yellow office chair facing the table. In the image, object ID 4 is a yellow chair positioned directly facing the table, making it the best match. Object ID 14 is also yellow and near the table but not as directly facing it as ID 4. Object ID 5 is adjacent to ID 4 and could be considered facing the table, but it is not yellow. Other yellow chairs like ID 0 and ID 8 are not facing the table directly. Therefore, the top matches are based on color and orientation relative to the table."
+    }
+]

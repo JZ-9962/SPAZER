@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the mouse in this query description: \"If you are facing the monitors, select the mouse that goes with the computer on the left\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The task is to find the mouse associated with the computer on the left when facing the monitors. In view 3, the setup of the desks and monitors is clearly visible, allowing us to identify the left computer and its corresponding mouse. The view provides a direct perspective of the monitors, making it easier to distinguish between the left and right setups."
+    }
+]

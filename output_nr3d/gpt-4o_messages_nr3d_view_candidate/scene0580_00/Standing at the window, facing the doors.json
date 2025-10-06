@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the unknown in this query description: \"Standing at the window, facing the doors, it is the one on the left.\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The query describes standing at the window and facing the doors, identifying the object on the left. In view 1, the window is clearly visible, and the doors are in the line of sight. The left side of the doors from this perspective shows the object in question. This view provides the clearest perspective to identify the target object based on the given description."
+    },
+    {
+        "role": "user",
+        "content": "Please select the object ID that best matches the given query description: \"Standing at the window, facing the doors, it is the one on the left.\".\nHere are two images. \nIn the global view image, the detected objects are annotated in different object IDs. \nAnd another image shows all detected objects cropped from 2D images. The same object is annotated in the same ID in both images.\nCarefully analyze the query text to identify key attributes of the target object. \nThen review the annotated 3D scene view and the cropped object images to select 4 object IDs that best matches the given query description.\nThe selected 4 object IDs should be sorted in descending order of confidence.\nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified and ranked the top 4 target object IDs.\n\"object_id\": 4 selected target object IDs. e.g., [1, 2, 3, 4, 5]\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The query describes an object that is 'standing at the window, facing the doors, it is the one on the left.' In the 3D scene, the window is located at the top of the image, and the doors are at the bottom. The objects near the window are IDs 1, 3, 4, and 15. Among these, ID 4 is on the left side when facing the doors from the window. Therefore, ID 4 is the best match. The next likely candidates, based on proximity to the left side, are IDs 1, 3, and 15."
+    }
+]

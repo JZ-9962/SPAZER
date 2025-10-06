@@ -1,0 +1,2961 @@
+Task number: 250
+Using model: gpt-4o
+SCENE_ID:scene0645_00
+query: lamp in between the beds
+[GPT] pred_target_class: lamp
+Matched target classes: {'lamp'}
+gt_object_name: lamp
+Matched targets ids: [12, 33, 34]
+Max IoU all ["33": 1.00]
+Max IoU targets ["33": 1.00]
+[GPT] select view: top
+Use all 3 bboxes [12, 33, 34]
+Top-4 IoU is ['0.00', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0565_00
+query: It is the door located in the corner of the room next to the long table.
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [19, 20]
+Max IoU all ["19": 1.00]
+Max IoU targets ["19": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [19, 20]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0685_00
+query: box in front of another
+[GPT] pred_target_class: box
+Matched target classes: set()
+gt_object_name: box
+Matched targets ids: []
+Max IoU all ["16": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: top
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [16, 17, 13, 0]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0633_00
+query: It's the large curtain on the window with a small white table in front of it.
+[GPT] pred_target_class: curtain
+Matched target classes: {'curtain'}
+gt_object_name: curtain
+Matched targets ids: [22]
+Max IoU all ["22": 1.00]
+Max IoU targets ["22": 1.00]
+Only one matched target [22], skip ...
+SCENE_ID:scene0343_00
+query: When pushing in this chair, it is the chair on the right.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [8, 17, 18]
+Max IoU all ["18": 1.00]
+Max IoU targets ["18": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [8, 17, 18]
+Top-4 IoU is ['0.00', '0.01', '1.00']   ['False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0653_00
+query: The lightest colored desk , under the clock, closest to the file box on the black cabinet
+[GPT] pred_target_class: desk
+Matched target classes: {'desk'}
+gt_object_name: desk
+Matched targets ids: [13, 15, 16, 17, 18]
+Max IoU all ["14": 1.00]
+Max IoU targets ["16": 0.13]
+[GPT] select view: down
+[GPT] select object: [16, 13, 15, 18]
+Top-4 IoU is ['0.13', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0050_00
+query: The correct door does not have the couch infront of it and has vertical lines on it.
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [9, 10, 32]
+Max IoU all ["10": 1.00]
+Max IoU targets ["10": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [9, 10, 32]
+Top-4 IoU is ['0.00', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0678_00
+query: When facing the long gray counter it is the window in the middle.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [9, 13, 21, 23, 25, 26, 31, 32]
+Max IoU all ["25": 1.00]
+Max IoU targets ["25": 1.00]
+[GPT] select view: right
+[GPT] select object: [25, 23, 26, 21]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0643_00
+query: The tall set of shelves,  in the corner.
+[GPT] pred_target_class: shelves
+Matched target classes: set()
+gt_object_name: shelf
+Matched targets ids: []
+Max IoU all ["38": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: left
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [16, 18, 38, 39]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0203_00
+query: The blue bag on top of the end table next to the couch.
+[GPT] pred_target_class: bag
+Matched target classes: {'bag'}
+gt_object_name: bag
+Matched targets ids: [23]
+Max IoU all ["21": 1.00]
+Max IoU targets ["23": 0.00]
+Only one matched target [23], skip ...
+SCENE_ID:scene0644_00
+query: The keyboard that is on the little side desk on the end of the big desks and is near the shelves.
+[GPT] pred_target_class: keyboard
+Matched target classes: {'keyboard'}
+gt_object_name: keyboard
+Matched targets ids: [38, 40, 41, 43, 57]
+Max IoU all ["41": 1.00]
+Max IoU targets ["41": 1.00]
+[GPT] select view: left
+[GPT] select object: [38, 41, 43, 40]
+Top-4 IoU is ['0.00', '1.00', '0.00', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0699_00
+query: tiny door in the corner
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [17]
+Max IoU all ["18": 1.00]
+Max IoU targets ["17": 0.00]
+Only one matched target [17], skip ...
+SCENE_ID:scene0203_00
+query: window with a white frame, by the shoes
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [13]
+Max IoU all ["8": 1.00]
+Max IoU targets ["13": 0.00]
+Only one matched target [13], skip ...
+SCENE_ID:scene0678_00
+query: The correct window is taller and touches the ground.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [9, 13, 21, 23, 25, 26, 31, 32]
+Max IoU all ["32": 1.00]
+Max IoU targets ["32": 1.00]
+[GPT] select view: left
+[GPT] select object: [9, 21, 23, 25]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0050_00
+query: The door that is directly south of the arm chair.
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [9, 10, 32]
+Max IoU all ["9": 1.00]
+Max IoU targets ["9": 1.00]
+[GPT] select view: top
+Use all 3 bboxes [9, 10, 32]
+Top-4 IoU is ['1.00', '0.00', '0.00']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0357_00
+query: The box that is higher.
+[GPT] pred_target_class: box
+Matched target classes: {'box'}
+gt_object_name: box
+Matched targets ids: [0, 1]
+Max IoU all ["1": 1.00]
+Max IoU targets ["1": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [0, 1]
+Top-4 IoU is ['0.04', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0664_00
+query: In the bathtub, the shorter towel.
+[GPT] pred_target_class: towel
+Matched target classes: {'towel'}
+gt_object_name: towel
+Matched targets ids: [14, 24]
+Max IoU all ["14": 1.00]
+Max IoU targets ["14": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [14, 24]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0552_00
+query: The table next to the copier.
+[GPT] pred_target_class: table
+Matched target classes: {'coffee table', 'table'}
+gt_object_name: table
+Matched targets ids: [9, 10, 11]
+Max IoU all ["11": 1.00]
+Max IoU targets ["11": 1.00]
+[GPT] select view: down
+Use all 3 bboxes [9, 10, 11]
+Top-4 IoU is ['0.00', '0.00', '1.00']   ['False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0378_00
+query: The green chair.
+[GPT] pred_target_class: chair
+Matched target classes: {'office chair', 'chair'}
+gt_object_name: office chair
+Matched targets ids: [40, 41, 42, 43]
+Max IoU all ["40": 1.00]
+Max IoU targets ["40": 1.00]
+[GPT] select view: right
+Use all 4 bboxes [40, 41, 42, 43]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0609_00
+query: The square table in the middle of the room.
+[GPT] pred_target_class: table
+Matched target classes: {'table'}
+gt_object_name: table
+Matched targets ids: [4, 5, 6]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [4, 5, 6]
+Top-4 IoU is ['1.00', '0.00', '0.00']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0549_00
+query: round table in corner with something black on it
+[GPT] pred_target_class: table
+Matched target classes: {'coffee table', 'table'}
+gt_object_name: end table
+Matched targets ids: [2, 3, 4, 5, 6, 7, 13]
+Max IoU all ["7": 1.00]
+Max IoU targets ["7": 1.00]
+[GPT] select view: up
+[GPT] select object: [5, 7, 4, 6]
+Top-4 IoU is ['0.00', '1.00', '0.00', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0535_00
+query: the chair between the desks in the middle of the room
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [15, 26]
+Max IoU all ["26": 1.00]
+Max IoU targets ["26": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [15, 26]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0357_00
+query: the larger green box underneath the smaller green box
+[GPT] pred_target_class: box
+Matched target classes: {'box'}
+gt_object_name: box
+Matched targets ids: [0, 1]
+Max IoU all ["0": 1.00]
+Max IoU targets ["0": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [0, 1]
+Top-4 IoU is ['1.00', '0.04']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0671_00
+query: Choose the black backpack hanging on the wall.
+[GPT] pred_target_class: backpack
+Matched target classes: set()
+gt_object_name: backpack
+Matched targets ids: []
+Max IoU all ["16": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: left
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [16]
+Top-4 IoU is ['1.00']   ['True']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0665_00
+query: I am the round table in the corner of the room
+[GPT] pred_target_class: table
+Matched target classes: {'table'}
+gt_object_name: table
+Matched targets ids: [15, 16, 17, 18, 19]
+Max IoU all ["19": 1.00]
+Max IoU targets ["19": 1.00]
+[GPT] select view: up
+[GPT] select object: [19, 17, 15, 16]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0500_00
+query: The window in the back of the room (assuming the blackboard is the front). Directly across the room from the board
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [26, 27, 28, 36]
+Max IoU all ["28": 1.00]
+Max IoU targets ["28": 1.00]
+[GPT] select view: right
+Use all 4 bboxes [26, 27, 28, 36]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0011_00
+query: The trash can located next to the two doors leading out
+[GPT] pred_target_class: trash can
+Matched target classes: {'trash can'}
+gt_object_name: trash can
+Matched targets ids: [32]
+Max IoU all ["32": 1.00]
+Max IoU targets ["32": 1.00]
+Only one matched target [32], skip ...
+SCENE_ID:scene0643_00
+query: Turn and face the small white fridge between the desks and it's the desk on the left beside the fridge.
+[GPT] pred_target_class: desk
+Matched target classes: {'desk'}
+gt_object_name: desk
+Matched targets ids: [0, 20, 31, 40]
+Max IoU all ["40": 1.00]
+Max IoU targets ["40": 1.00]
+[GPT] select view: top
+Use all 4 bboxes [0, 20, 31, 40]
+Top-4 IoU is ['0.00', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0616_00
+query: Choose the round table that is NOT in the corner.
+[GPT] pred_target_class: table
+Matched target classes: {'coffee table'}
+gt_object_name: table
+Matched targets ids: [4, 5]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [4, 5]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0645_00
+query: Choose the frame over the bed closest to the window.
+[GPT] pred_target_class: frame
+Matched target classes: set()
+gt_object_name: picture
+Matched targets ids: []
+Max IoU all ["57": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: left
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [58, 41, 36, 57]
+Top-4 IoU is ['0.00', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0251_00
+query: The trash can in the corner with the blue bag
+[GPT] pred_target_class: trash can
+Matched target classes: {'trash can'}
+gt_object_name: trash can
+Matched targets ids: [8, 9, 10, 11, 12]
+Max IoU all ["11": 1.00]
+Max IoU targets ["11": 1.00]
+[GPT] select view: up
+[GPT] select object: [9, 8, 10, 11]
+Top-4 IoU is ['0.00', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0696_00
+query: When facing the monitors, it's the monitor on the left.
+[GPT] pred_target_class: monitor
+Matched target classes: {'monitor'}
+gt_object_name: monitor
+Matched targets ids: [4]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+Only one matched target [4], skip ...
+SCENE_ID:scene0256_00
+query: the curtains are grey
+[GPT] pred_target_class: curtains
+Matched target classes: {'curtain'}
+gt_object_name: curtain
+Matched targets ids: [7, 9]
+Max IoU all ["9": 1.00]
+Max IoU targets ["9": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [7, 9]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0598_00
+query: when facing the table, chair on the back side on the left
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [7, 8, 9, 10, 11, 12]
+Max IoU all ["11": 1.00]
+Max IoU targets ["11": 1.00]
+[GPT] select view: left
+[GPT] select object: [11, 12, 8, 9]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0426_00
+query: If you watching tv the box is to the right.
+[GPT] pred_target_class: box
+Matched target classes: {'tissue box', 'box'}
+gt_object_name: box
+Matched targets ids: [20, 25, 43]
+Max IoU all ["26": 1.00]
+Max IoU targets ["20": 0.00]
+[GPT] select view: up
+Use all 3 bboxes [20, 25, 43]
+Top-4 IoU is ['0.00', '0.00', '0.00']   ['False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0086_00
+query: the rail on the wall, under the toilet paper holder
+[GPT] pred_target_class: rail
+Matched target classes: set()
+gt_object_name: rail
+Matched targets ids: []
+Max IoU all ["15": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: right
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [7, 28, 29, 6]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0606_00
+query: The right storage bin on the floor under the clock.
+[GPT] pred_target_class: storage bin
+Matched target classes: {'storage container'}
+gt_object_name: storage bin
+Matched targets ids: [31, 32]
+Max IoU all ["30": 1.00]
+Max IoU targets ["31": 0.00]
+[GPT] select view: right
+Use all 2 bboxes [31, 32]
+Top-4 IoU is ['0.00', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0645_00
+query: select the curtain beside the chairs , the one on your left
+[GPT] pred_target_class: curtain
+Matched target classes: {'curtain', 'shower curtain'}
+gt_object_name: curtain
+Matched targets ids: [17, 40, 79]
+Max IoU all ["40": 1.00]
+Max IoU targets ["40": 1.00]
+[GPT] select view: up
+Use all 3 bboxes [17, 40, 79]
+Top-4 IoU is ['0.00', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0700_00
+query: the backpack on the floor
+[GPT] pred_target_class: backpack
+Matched target classes: {'backpack'}
+gt_object_name: backpack
+Matched targets ids: [5, 6]
+Max IoU all ["6": 1.00]
+Max IoU targets ["6": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [5, 6]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0665_00
+query: The round table with the most objects on top of it
+[GPT] pred_target_class: table
+Matched target classes: {'table'}
+gt_object_name: table
+Matched targets ids: [15, 16, 17, 18, 19]
+Max IoU all ["17": 1.00]
+Max IoU targets ["17": 1.00]
+[GPT] select view: up
+[GPT] select object: [17, 19, 15, 16]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0050_00
+query: if facing the doors, the one on your left
+[GPT] pred_target_class: unknown
+Matched target classes: set()
+gt_object_name: door
+Matched targets ids: []
+Max IoU all ["9": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: right
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [0, 30, 1, 12]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0647_00
+query: This is the round table by the closed white door.
+[GPT] pred_target_class: table
+Matched target classes: {'coffee table', 'table'}
+gt_object_name: table
+Matched targets ids: [5, 9, 10, 11]
+Max IoU all ["9": 1.00]
+Max IoU targets ["9": 1.00]
+[GPT] select view: left
+Use all 4 bboxes [5, 9, 10, 11]
+Top-4 IoU is ['0.00', '1.00', '0.00', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0686_00
+query: The bathroom stall with the toilet seat that is up.
+[GPT] pred_target_class: stall
+Matched target classes: {'bathroom stall door', 'bathroom stall'}
+gt_object_name: bathroom stall
+Matched targets ids: [0, 1, 2, 3]
+Max IoU all ["2": 1.00]
+Max IoU targets ["2": 1.00]
+[GPT] select view: top
+Use all 4 bboxes [0, 1, 2, 3]
+Top-4 IoU is ['0.00', '0.17', '1.00', '0.03']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0461_00
+query: There is a table in front of this armchair
+[GPT] pred_target_class: table
+Matched target classes: {'table'}
+gt_object_name: armchair
+Matched targets ids: [3, 4]
+Max IoU all ["2": 1.00]
+Max IoU targets ["3": 0.00]
+[GPT] select view: down
+Use all 2 bboxes [3, 4]
+Top-4 IoU is ['0.00', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0598_00
+query: The smaller window near the shutters.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [18]
+Max IoU all ["18": 1.00]
+Max IoU targets ["18": 1.00]
+Only one matched target [18], skip ...
+SCENE_ID:scene0558_00
+query: the chair that does NOT have a blue bag on it.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [1, 2]
+Max IoU all ["2": 1.00]
+Max IoU targets ["2": 1.00]
+[GPT] select view: right
+Use all 2 bboxes [1, 2]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0329_00
+query: the white monitor furthest from the trash cans which are in between the two doors
+[GPT] pred_target_class: monitor
+Matched target classes: {'monitor'}
+gt_object_name: monitor
+Matched targets ids: [12, 32, 33]
+Max IoU all ["32": 1.00]
+Max IoU targets ["32": 1.00]
+[GPT] select view: right
+Use all 3 bboxes [12, 32, 33]
+Top-4 IoU is ['0.00', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0207_00
+query: Bathroom sink next to the toilet.
+[GPT] pred_target_class: sink
+Matched target classes: {'sink'}
+gt_object_name: sink
+Matched targets ids: [17, 57]
+Max IoU all ["57": 1.00]
+Max IoU targets ["57": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [17, 57]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0025_00
+query: Choose the smaller of the two windows. It is on the left if you face the windows.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [22, 23]
+Max IoU all ["21": 1.00]
+Max IoU targets ["22": 0.02]
+[GPT] select view: left
+Use all 2 bboxes [22, 23]
+Top-4 IoU is ['0.02', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0686_00
+query: The toilet in the right stall.
+[GPT] pred_target_class: toilet
+Matched target classes: {'toilet seat cover dispenser', 'toilet'}
+gt_object_name: toilet
+Matched targets ids: [9, 23, 24]
+Max IoU all ["23": 1.00]
+Max IoU targets ["23": 1.00]
+[GPT] select view: top
+Use all 3 bboxes [9, 23, 24]
+Top-4 IoU is ['0.00', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0565_00
+query: You want the window that is dark greyish green to the right of the window with pictures on it
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [9, 31, 34]
+Max IoU all ["34": 1.00]
+Max IoU targets ["34": 1.00]
+[GPT] select view: right
+Use all 3 bboxes [9, 31, 34]
+Top-4 IoU is ['0.00', '0.00', '1.00']   ['False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0580_00
+query: The backpack on the floor next to the ipad on the bed
+[GPT] pred_target_class: backpack
+Matched target classes: {'backpack'}
+gt_object_name: backpack
+Matched targets ids: [9, 16]
+Max IoU all ["9": 1.00]
+Max IoU targets ["9": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [9, 16]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0353_00
+query: if looking at the window from the door, the desk on the right.
+[GPT] pred_target_class: desk
+Matched target classes: {'desk'}
+gt_object_name: desk
+Matched targets ids: [2, 17, 47, 50]
+Max IoU all ["17": 1.00]
+Max IoU targets ["17": 1.00]
+[GPT] select view: down
+Use all 4 bboxes [2, 17, 47, 50]
+Top-4 IoU is ['0.31', '1.00', '0.00', '0.00']   ['True', 'True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0231_00
+query: The trash can in front of piles of papers that are under a desk.
+[GPT] pred_target_class: trash can
+Matched target classes: set()
+gt_object_name: trash can
+Matched targets ids: []
+Max IoU all ["31": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: up
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [9, 10, 8, 11]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0704_00
+query: the left artwork directly above the blue shredder
+[GPT] pred_target_class: artwork
+Matched target classes: set()
+gt_object_name: picture
+Matched targets ids: []
+Max IoU all ["11": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: left
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [11, 10, 22, 25]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0222_00
+query: The window on the right that has a fan in front of the middle of it
+[GPT] pred_target_class: window
+Matched target classes: set()
+gt_object_name: window
+Matched targets ids: []
+Max IoU all ["29": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: right
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [29, 30, 28, 9]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0651_00
+query: the chair closest to the kitchen
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [7, 8, 10]
+Max IoU all ["8": 1.00]
+Max IoU targets ["8": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [7, 8, 10]
+Top-4 IoU is ['0.00', '1.00', '0.02']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0607_00
+query: the sink on the right-hand side
+[GPT] pred_target_class: sink
+Matched target classes: {'sink'}
+gt_object_name: sink
+Matched targets ids: [16, 17]
+Max IoU all ["16": 1.00]
+Max IoU targets ["16": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [16, 17]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0351_00
+query: It's the chair by itself, not near the desk.
+[GPT] pred_target_class: chair
+Matched target classes: {'office chair', 'chair'}
+gt_object_name: chair
+Matched targets ids: [0, 1, 2, 3]
+Max IoU all ["0": 1.00]
+Max IoU targets ["0": 1.00]
+[GPT] select view: left
+Use all 4 bboxes [0, 1, 2, 3]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0488_00
+query: the cabinets above the sink
+[GPT] pred_target_class: cabinet
+Matched target classes: {'cabinet', 'kitchen cabinet'}
+gt_object_name: kitchen cabinets
+Matched targets ids: [3, 4, 5, 8, 18, 19, 21, 23]
+Max IoU all ["18": 1.00]
+Max IoU targets ["18": 1.00]
+[GPT] select view: left
+[GPT] select object: [18, 4, 5, 8]
+Top-4 IoU is ['1.00', '0.01', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0652_00
+query: The only pillow that isn't on the bed
+[GPT] pred_target_class: pillow
+Matched target classes: {'pillow'}
+gt_object_name: pillow
+Matched targets ids: [11, 12, 13, 14, 15, 17]
+Max IoU all ["17": 1.00]
+Max IoU targets ["17": 1.00]
+[GPT] select view: left
+[GPT] select object: [17, 11, 12, 13]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0077_00
+query: The printer directly in front of the window closest to the corner of the room.
+[GPT] pred_target_class: printer
+Matched target classes: {'printer'}
+gt_object_name: printer
+Matched targets ids: [0]
+Max IoU all ["1": 1.00]
+Max IoU targets ["0": 0.00]
+Only one matched target [0], skip ...
+SCENE_ID:scene0208_00
+query: Find the box with the LONGEST set of bookcases, then choose the smaller one in the corner next to it on the left.
+[GPT] pred_target_class: box
+Matched target classes: set()
+gt_object_name: bookshelf
+Matched targets ids: []
+Max IoU all ["1": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: up
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [7, 16, 17, 12]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0025_00
+query: When facing the door, the couch to the right.
+[GPT] pred_target_class: couch
+Matched target classes: {'couch'}
+gt_object_name: couch
+Matched targets ids: [3, 4]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [3, 4]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0494_00
+query: The chair against the whiteboard on the right side.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [1, 2, 3, 11]
+Max IoU all ["11": 1.00]
+Max IoU targets ["11": 1.00]
+[GPT] select view: down
+Use all 4 bboxes [1, 2, 3, 11]
+Top-4 IoU is ['0.00', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0423_00
+query: It's the left armchair between the two closest to the table.
+[GPT] pred_target_class: armchair
+Matched target classes: {'armchair'}
+gt_object_name: armchair
+Matched targets ids: [3]
+Max IoU all ["3": 1.00]
+Max IoU targets ["3": 1.00]
+Only one matched target [3], skip ...
+SCENE_ID:scene0648_00
+query: I am the shelf above the bed with red clothes on the bed
+[GPT] pred_target_class: shelf
+Matched target classes: {'shelf'}
+gt_object_name: shelf
+Matched targets ids: [13, 17, 22, 24]
+Max IoU all ["23": 1.00]
+Max IoU targets ["13": 0.00]
+[GPT] select view: up
+Use all 4 bboxes [13, 17, 22, 24]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0629_00
+query: Pick the door that is slightly open, and is closer to the red an yellow painting.
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [0, 2]
+Max IoU all ["0": 1.00]
+Max IoU targets ["0": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [0, 2]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0474_00
+query: The tall narrow window next to the exit door.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [23, 36]
+Max IoU all ["23": 1.00]
+Max IoU targets ["23": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [23, 36]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0565_00
+query: the monitor on the floor next to the desk
+[GPT] pred_target_class: monitor
+Matched target classes: {'monitor'}
+gt_object_name: monitor
+Matched targets ids: [2, 3, 4, 5, 37]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+[GPT] select view: right
+[GPT] select object: [2, 4, 37, 3]
+Top-4 IoU is ['0.00', '1.00', '0.00', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0629_00
+query: This cabinet is dark and further away from the door.
+[GPT] pred_target_class: cabinet
+Matched target classes: {'cabinet'}
+gt_object_name: cabinet
+Matched targets ids: [6, 22]
+Max IoU all ["22": 1.00]
+Max IoU targets ["22": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [6, 22]
+Top-4 IoU is ['0.02', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0580_00
+query: Facing the doors, the door on the left.
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [25, 26]
+Max IoU all ["25": 1.00]
+Max IoU targets ["25": 1.00]
+[GPT] select view: right
+Use all 2 bboxes [25, 26]
+Top-4 IoU is ['1.00', '0.01']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0653_00
+query: The whiteboard that has a blue note on top.
+[GPT] pred_target_class: whiteboard
+Matched target classes: {'whiteboard'}
+gt_object_name: board
+Matched targets ids: [21]
+Max IoU all ["11": 1.00]
+Max IoU targets ["21": 0.00]
+Only one matched target [21], skip ...
+SCENE_ID:scene0578_00
+query: the smallest window above the door
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [9, 13, 19]
+Max IoU all ["13": 1.00]
+Max IoU targets ["13": 1.00]
+[GPT] select view: up
+Use all 3 bboxes [9, 13, 19]
+Top-4 IoU is ['0.00', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0063_00
+query: If you were standing in front of the sink, facing away from the sink, out of the two chairs closest to you it's the one on the right
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [4, 5, 6, 7]
+Max IoU all ["7": 1.00]
+Max IoU targets ["7": 1.00]
+[GPT] select view: left
+Use all 4 bboxes [4, 5, 6, 7]
+Top-4 IoU is ['0.00', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0699_00
+query: the pillow on the side near the kitchen table.
+[GPT] pred_target_class: pillow
+Matched target classes: {'pillow'}
+gt_object_name: pillow
+Matched targets ids: [25, 26]
+Max IoU all ["26": 1.00]
+Max IoU targets ["26": 1.00]
+[GPT] select view: right
+Use all 2 bboxes [25, 26]
+Top-4 IoU is ['0.03', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0580_00
+query: Choose the backpack in the corner closer to the window
+[GPT] pred_target_class: backpack
+Matched target classes: {'backpack'}
+gt_object_name: backpack
+Matched targets ids: [9, 16]
+Max IoU all ["16": 1.00]
+Max IoU targets ["16": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [9, 16]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0629_00
+query: The picture that is slightly behind the air matress propped on the wall
+[GPT] pred_target_class: picture
+Matched target classes: {'picture'}
+gt_object_name: picture
+Matched targets ids: [3, 14, 24, 25, 32]
+Max IoU all ["32": 1.00]
+Max IoU targets ["32": 1.00]
+[GPT] select view: up
+[GPT] select object: [32, 14, 24, 25]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0187_00
+query: the table in front of the chair with a circular stand
+[GPT] pred_target_class: table
+Matched target classes: {'coffee table', 'table'}
+gt_object_name: coffee table
+Matched targets ids: [2, 6, 7, 8, 9, 10]
+Max IoU all ["9": 1.00]
+Max IoU targets ["9": 1.00]
+[GPT] select view: left
+[GPT] select object: [7, 8, 9, 2]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0353_00
+query: from under the room, it is the shoes under the bed completely
+[GPT] pred_target_class: shoes
+Matched target classes: {'shoe'}
+gt_object_name: shoes
+Matched targets ids: [1, 23, 31]
+Max IoU all ["33": 1.00]
+Max IoU targets ["1": 0.00]
+[GPT] select view: left
+Use all 3 bboxes [1, 23, 31]
+Top-4 IoU is ['0.00', '0.00', '0.00']   ['False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0648_00
+query: The dresser under the bed with the orange pillow.
+[GPT] pred_target_class: dresser
+Matched target classes: set()
+gt_object_name: dresser
+Matched targets ids: []
+Max IoU all ["27": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: down
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [18, 25, 26, 27]
+Top-4 IoU is ['0.02', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0300_00
+query: The chair that is alone under the smaller tan table.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [7, 8, 9]
+Max IoU all ["9": 1.00]
+Max IoU targets ["9": 1.00]
+[GPT] select view: top
+Use all 3 bboxes [7, 8, 9]
+Top-4 IoU is ['0.00', '0.00', '1.00']   ['False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0699_00
+query: The backpack close to the bed on the floor
+[GPT] pred_target_class: backpack
+Matched target classes: {'backpack'}
+gt_object_name: backpack
+Matched targets ids: [32]
+Max IoU all ["27": 1.00]
+Max IoU targets ["32": 0.00]
+Only one matched target [32], skip ...
+SCENE_ID:scene0095_00
+query: Of the 5 monitors facing you, the keyboard that is directly in front of the center monitor
+[GPT] pred_target_class: keyboard
+Matched target classes: {'keyboard'}
+gt_object_name: keyboard
+Matched targets ids: [22, 23, 25, 26, 28, 29]
+Max IoU all ["28": 1.00]
+Max IoU targets ["28": 1.00]
+[GPT] select view: right
+[GPT] select object: [26, 25, 28, 29]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0686_00
+query: This toilet is the one with the seat up, and is in the stall closest to the sink.
+[GPT] pred_target_class: toilet
+Matched target classes: {'toilet seat cover dispenser', 'toilet'}
+gt_object_name: toilet
+Matched targets ids: [9, 23, 24]
+Max IoU all ["23": 1.00]
+Max IoU targets ["23": 1.00]
+[GPT] select view: down
+Use all 3 bboxes [9, 23, 24]
+Top-4 IoU is ['0.00', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0231_00
+query: the trash can that has some multicolored folder things on the wall above it
+[GPT] pred_target_class: trash can
+Matched target classes: set()
+gt_object_name: trash can
+Matched targets ids: []
+Max IoU all ["31": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: down
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [31, 34, 30, 36]
+Top-4 IoU is ['1.00', '0.00', '0.07', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0663_00
+query: The desk closest to the window.
+[GPT] pred_target_class: desk
+Matched target classes: {'desk'}
+gt_object_name: desk
+Matched targets ids: [3, 4, 8]
+Max IoU all ["3": 1.00]
+Max IoU targets ["3": 1.00]
+[GPT] select view: up
+Use all 3 bboxes [3, 4, 8]
+Top-4 IoU is ['1.00', '0.00', '0.01']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0699_00
+query: Choose the pillow closest to the window.
+[GPT] pred_target_class: pillow
+Matched target classes: {'pillow'}
+gt_object_name: pillow
+Matched targets ids: [25, 26]
+Max IoU all ["25": 1.00]
+Max IoU targets ["25": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [25, 26]
+Top-4 IoU is ['1.00', '0.03']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0435_00
+query: the black shoes in front of the door
+[GPT] pred_target_class: shoes
+Matched target classes: {'shoe'}
+gt_object_name: shoes
+Matched targets ids: [16, 17]
+Max IoU all ["17": 1.00]
+Max IoU targets ["17": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [16, 17]
+Top-4 IoU is ['0.06', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0643_00
+query: The garbage can and not recycling bin
+[GPT] pred_target_class: garbage can
+Matched target classes: {'trash can'}
+gt_object_name: trash can
+Matched targets ids: [29, 30]
+Max IoU all ["29": 1.00]
+Max IoU targets ["29": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [29, 30]
+Top-4 IoU is ['1.00', '0.07']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0025_00
+query: Much taller shelf of the two
+[GPT] pred_target_class: shelf
+Matched target classes: set()
+gt_object_name: shelf
+Matched targets ids: []
+Max IoU all ["11": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: down
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [11]
+Top-4 IoU is ['1.00']   ['True']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0696_00
+query: If you face the two monitors, pick the one of the left side that is closer to the window.
+[GPT] pred_target_class: monitor
+Matched target classes: {'monitor'}
+gt_object_name: monitor
+Matched targets ids: [4]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+Only one matched target [4], skip ...
+SCENE_ID:scene0025_00
+query: The correct cup is closer to the edge of the desk.
+[GPT] pred_target_class: cup
+Matched target classes: {'cup'}
+gt_object_name: cup
+Matched targets ids: [31, 32]
+Max IoU all ["31": 1.00]
+Max IoU targets ["31": 1.00]
+[GPT] select view: right
+Use all 2 bboxes [31, 32]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0699_00
+query: Standing at the foot of the bed, looking at the head of the bed, it's the pillow on the left
+[GPT] pred_target_class: pillow
+Matched target classes: {'pillow'}
+gt_object_name: pillow
+Matched targets ids: [25, 26]
+Max IoU all ["26": 1.00]
+Max IoU targets ["26": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [25, 26]
+Top-4 IoU is ['0.03', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0643_00
+query: the tall shelf behind the door
+[GPT] pred_target_class: shelf
+Matched target classes: set()
+gt_object_name: shelf
+Matched targets ids: []
+Max IoU all ["38": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: up
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [38, 39, 17, 18]
+Top-4 IoU is ['1.00', '0.00', '0.03', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0328_00
+query: Find the sign that is under the cabinet and furthest away from the sink.
+[GPT] pred_target_class: sign
+Matched target classes: {'sign'}
+gt_object_name: sign
+Matched targets ids: [27, 28]
+Max IoU all ["30": 1.00]
+Max IoU targets ["27": 0.00]
+[GPT] select view: down
+Use all 2 bboxes [27, 28]
+Top-4 IoU is ['0.00', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0568_00
+query: While facing the play carpet, it's the farthest chair to the left beside the bookshelf.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [0, 1, 2, 15]
+Max IoU all ["15": 1.00]
+Max IoU targets ["15": 1.00]
+[GPT] select view: left
+Use all 4 bboxes [0, 1, 2, 15]
+Top-4 IoU is ['0.02', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0169_00
+query: The cabinet on the left end of the long row of chairs.
+[GPT] pred_target_class: cabinet
+Matched target classes: {'cabinet'}
+gt_object_name: cabinet
+Matched targets ids: [12, 26]
+Max IoU all ["26": 1.00]
+Max IoU targets ["26": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [12, 26]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0645_00
+query: The artwork directly above the bed nearest the bathroom.
+[GPT] pred_target_class: artwork
+Matched target classes: set()
+gt_object_name: picture
+Matched targets ids: []
+Max IoU all ["58": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: top
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [58, 57, 36, 21]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0307_00
+query: The sink closest to the washing machine.
+[GPT] pred_target_class: sink
+Matched target classes: {'sink'}
+gt_object_name: sink
+Matched targets ids: [4, 5, 23]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [4, 5, 23]
+Top-4 IoU is ['1.00', '0.00', '0.11']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0653_00
+query: The window that does not have a computer facing directly away from it
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [7, 10, 20, 25]
+Max IoU all ["25": 1.00]
+Max IoU targets ["25": 1.00]
+[GPT] select view: up
+Use all 4 bboxes [7, 10, 20, 25]
+Top-4 IoU is ['0.00', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0458_00
+query: the toilet paper on the right-hand side of the toilet
+[GPT] pred_target_class: toilet paper
+Matched target classes: {'toilet', 'toilet paper'}
+gt_object_name: toilet paper
+Matched targets ids: [4, 5, 6]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+[GPT] select view: top
+Use all 3 bboxes [4, 5, 6]
+Top-4 IoU is ['1.00', '0.00', '0.02']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0598_00
+query: the monitor closest to the window
+[GPT] pred_target_class: monitor
+Matched target classes: {'monitor'}
+gt_object_name: monitor
+Matched targets ids: [2, 3]
+Max IoU all ["3": 1.00]
+Max IoU targets ["3": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [2, 3]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0251_00
+query: The open door by the trash cans, leading into a room with white flooring.
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [13, 14]
+Max IoU all ["14": 1.00]
+Max IoU targets ["14": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [13, 14]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0064_00
+query: the armchair facing the door
+[GPT] pred_target_class: armchair
+Matched target classes: set()
+gt_object_name: armchair
+Matched targets ids: []
+Max IoU all ["7": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: right
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [8, 7, 4, 5]
+Top-4 IoU is ['0.03', '1.00', '0.00', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0343_00
+query: I am shelves beside the yellow price tag.
+[GPT] pred_target_class: shelves
+Matched target classes: set()
+gt_object_name: shelf
+Matched targets ids: []
+Max IoU all ["5": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: top
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [5, 6, 7, 3]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0697_00
+query: The taller dresser across from the bed.
+[GPT] pred_target_class: dresser
+Matched target classes: {'dresser'}
+gt_object_name: dresser
+Matched targets ids: [10, 11]
+Max IoU all ["10": 1.00]
+Max IoU targets ["10": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [10, 11]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0648_00
+query: the chair in front of the window and between the beds
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [25, 26]
+Max IoU all ["26": 1.00]
+Max IoU targets ["26": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [25, 26]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0648_00
+query: choose the plant closest to the bed.
+[GPT] pred_target_class: plant
+Matched target classes: {'plant'}
+gt_object_name: plant
+Matched targets ids: [9, 10]
+Max IoU all ["9": 1.00]
+Max IoU targets ["9": 1.00]
+[GPT] select view: right
+Use all 2 bboxes [9, 10]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0221_00
+query: the pillow is directly to the right of the lamp
+[GPT] pred_target_class: pillow
+Matched target classes: {'pillow'}
+gt_object_name: pillow
+Matched targets ids: [39, 40, 41, 44, 45, 46]
+Max IoU all ["45": 1.00]
+Max IoU targets ["45": 1.00]
+[GPT] select view: up
+[GPT] select object: [45, 44, 46, 41]
+Top-4 IoU is ['1.00', '0.11', '0.04', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0697_00
+query: the lamp on the stand with two remotes
+[GPT] pred_target_class: lamp
+Matched target classes: {'lamp'}
+gt_object_name: lamp
+Matched targets ids: [19, 20]
+Max IoU all ["19": 1.00]
+Max IoU targets ["19": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [19, 20]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0353_00
+query: The shelf above the couch
+[GPT] pred_target_class: shelf
+Matched target classes: {'shelf'}
+gt_object_name: shelf
+Matched targets ids: [7, 44, 49]
+Max IoU all ["7": 1.00]
+Max IoU targets ["7": 1.00]
+[GPT] select view: right
+Use all 3 bboxes [7, 44, 49]
+Top-4 IoU is ['1.00', '0.00', '0.00']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0704_00
+query: Wall mounted cabinet, the one that's not above printer
+[GPT] pred_target_class: cabinet
+Matched target classes: {'cabinet', 'kitchen cabinet'}
+gt_object_name: cabinets
+Matched targets ids: [0, 5, 14, 24]
+Max IoU all ["15": 1.00]
+Max IoU targets ["14": 0.02]
+[GPT] select view: up
+Use all 4 bboxes [0, 5, 14, 24]
+Top-4 IoU is ['0.00', '0.00', '0.02', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0249_00
+query: The window closest to the recycling bin.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [33, 34]
+Max IoU all ["33": 1.00]
+Max IoU targets ["33": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [33, 34]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0378_00
+query: Facing the door, the shelf to the right.
+[GPT] pred_target_class: shelf
+Matched target classes: {'shelf'}
+gt_object_name: bookshelf
+Matched targets ids: [39]
+Max IoU all ["37": 1.00]
+Max IoU targets ["39": 0.00]
+Only one matched target [39], skip ...
+SCENE_ID:scene0699_00
+query: Facing the foot of the bed, the pillow on the right.
+[GPT] pred_target_class: pillow
+Matched target classes: {'pillow'}
+gt_object_name: pillow
+Matched targets ids: [25, 26]
+Max IoU all ["25": 1.00]
+Max IoU targets ["25": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [25, 26]
+Top-4 IoU is ['1.00', '0.03']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0435_00
+query: The picture above the desk.
+[GPT] pred_target_class: picture
+Matched target classes: {'picture'}
+gt_object_name: picture
+Matched targets ids: [28, 57]
+Max IoU all ["57": 1.00]
+Max IoU targets ["57": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [28, 57]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0651_00
+query: Choose the chair that is closest to the kitchen.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [7, 8, 10]
+Max IoU all ["8": 1.00]
+Max IoU targets ["8": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [7, 8, 10]
+Top-4 IoU is ['0.00', '1.00', '0.02']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0678_00
+query: The window in the middle of the room next to the black floor mat
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [9, 13, 21, 23, 25, 26, 31, 32]
+Max IoU all ["32": 1.00]
+Max IoU targets ["32": 1.00]
+[GPT] select view: left
+[GPT] select object: [25, 23, 21, 26]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0432_00
+query: It is the chair with the towel hanging behind it.
+[GPT] pred_target_class: chair
+Matched target classes: {'sofa chair'}
+gt_object_name: sofa chair
+Matched targets ids: [1, 2]
+Max IoU all ["2": 1.00]
+Max IoU targets ["2": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [1, 2]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0593_00
+query: Bottom cabinet with a printer next to the standing fan
+[GPT] pred_target_class: cabinet
+Matched target classes: {'cabinet'}
+gt_object_name: cabinet
+Matched targets ids: [0, 12, 16, 17, 18]
+Max IoU all ["18": 1.00]
+Max IoU targets ["18": 1.00]
+[GPT] select view: down
+[GPT] select object: [17, 18, 12, 16]
+Top-4 IoU is ['0.00', '1.00', '0.00', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0153_00
+query: The towel hanging on the shower curtain rod, closest to the toilet.
+[GPT] pred_target_class: towel
+Matched target classes: {'towel'}
+gt_object_name: towel
+Matched targets ids: [8, 17, 20]
+Max IoU all ["20": 1.00]
+Max IoU targets ["20": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [8, 17, 20]
+Top-4 IoU is ['0.00', '0.00', '1.00']   ['False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0086_00
+query: The smallest bathroom stall
+[GPT] pred_target_class: bathroom stall
+Matched target classes: {'bathroom stall door', 'bathroom stall'}
+gt_object_name: bathroom stall
+Matched targets ids: [1, 10, 28, 29]
+Max IoU all ["28": 1.00]
+Max IoU targets ["28": 1.00]
+[GPT] select view: right
+Use all 4 bboxes [1, 10, 28, 29]
+Top-4 IoU is ['0.03', '0.00', '1.00', '0.07']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0474_00
+query: the window furthest from the door.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [23, 36]
+Max IoU all ["36": 1.00]
+Max IoU targets ["36": 1.00]
+[GPT] select view: right
+Use all 2 bboxes [23, 36]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0580_00
+query: If you are standing at the foot of the bed, choose the pillow on the left.
+[GPT] pred_target_class: pillow
+Matched target classes: {'pillow'}
+gt_object_name: pillow
+Matched targets ids: [8, 17]
+Max IoU all ["17": 1.00]
+Max IoU targets ["17": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [8, 17]
+Top-4 IoU is ['0.04', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0565_00
+query: pick the grey chair next to the green one.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [0, 1, 24, 25]
+Max IoU all ["0": 1.00]
+Max IoU targets ["0": 1.00]
+[GPT] select view: left
+Use all 4 bboxes [0, 1, 24, 25]
+Top-4 IoU is ['1.00', '0.00', '0.06', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0435_00
+query: The shoes furthest from the front door.
+[GPT] pred_target_class: shoes
+Matched target classes: {'shoe'}
+gt_object_name: shoes
+Matched targets ids: [16, 17]
+Max IoU all ["16": 1.00]
+Max IoU targets ["16": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [16, 17]
+Top-4 IoU is ['1.00', '0.06']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0704_00
+query: The top cabinet next to door
+[GPT] pred_target_class: cabinet
+Matched target classes: {'cabinet', 'kitchen cabinet'}
+gt_object_name: cabinets
+Matched targets ids: [0, 5, 14, 24]
+Max IoU all ["14": 1.00]
+Max IoU targets ["14": 1.00]
+[GPT] select view: up
+Use all 4 bboxes [0, 5, 14, 24]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0187_00
+query: the smallest table, its has no chairs under/next to it
+[GPT] pred_target_class: table
+Matched target classes: {'coffee table', 'table'}
+gt_object_name: table
+Matched targets ids: [2, 6, 7, 8, 9, 10]
+Max IoU all ["6": 1.00]
+Max IoU targets ["6": 1.00]
+[GPT] select view: up
+[GPT] select object: [2, 9, 10, 6]
+Top-4 IoU is ['0.00', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0462_00
+query: Printer on left, shelving on right, you want the back option of the two boxes
+[GPT] pred_target_class: box
+Matched target classes: {'box'}
+gt_object_name: box
+Matched targets ids: [1, 15]
+Max IoU all ["21": 1.00]
+Max IoU targets ["1": 0.11]
+[GPT] select view: top
+Use all 2 bboxes [1, 15]
+Top-4 IoU is ['0.11', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0050_00
+query: Choose the glass doors.
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: doors
+Matched targets ids: [9, 10, 32]
+Max IoU all ["8": 1.00]
+Max IoU targets ["9": 0.00]
+[GPT] select view: up
+Use all 3 bboxes [9, 10, 32]
+Top-4 IoU is ['0.00', '0.00', '0.00']   ['False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0169_00
+query: When facing the row of grey chairs, the window that is over the chairs on the left.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [28]
+Max IoU all ["28": 1.00]
+Max IoU targets ["28": 1.00]
+Only one matched target [28], skip ...
+SCENE_ID:scene0697_00
+query: From the foot of the bed choose the dresser that is to your right. it is the shorter dresser with 8 drawers.
+[GPT] pred_target_class: dresser
+Matched target classes: {'dresser'}
+gt_object_name: dresser
+Matched targets ids: [10, 11]
+Max IoU all ["11": 1.00]
+Max IoU targets ["11": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [10, 11]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0251_00
+query: The trashcan next to the open doorway.
+[GPT] pred_target_class: trashcan
+Matched target classes: set()
+gt_object_name: trash can
+Matched targets ids: []
+Max IoU all ["12": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: up
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [9, 8, 10, 11]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0653_00
+query: Facing the windows, chose the center desk under the clock.
+[GPT] pred_target_class: desk
+Matched target classes: {'desk'}
+gt_object_name: desk
+Matched targets ids: [13, 15, 16, 17, 18]
+Max IoU all ["16": 1.00]
+Max IoU targets ["16": 1.00]
+[GPT] select view: down
+[GPT] select object: [16, 13, 15, 18]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0357_00
+query: the box stacked on top
+[GPT] pred_target_class: box
+Matched target classes: {'box'}
+gt_object_name: box
+Matched targets ids: [0, 1]
+Max IoU all ["1": 1.00]
+Max IoU targets ["1": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [0, 1]
+Top-4 IoU is ['0.04', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0412_00
+query: select the trash can at the back middle one
+[GPT] pred_target_class: trash can
+Matched target classes: {'trash can'}
+gt_object_name: trash can
+Matched targets ids: [5, 13, 14, 15]
+Max IoU all ["14": 1.00]
+Max IoU targets ["14": 1.00]
+[GPT] select view: up
+Use all 4 bboxes [5, 13, 14, 15]
+Top-4 IoU is ['0.00', '0.05', '1.00', '0.04']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0256_00
+query: It is the box on top.
+[GPT] pred_target_class: box
+Matched target classes: {'box'}
+gt_object_name: box
+Matched targets ids: [3, 4, 12]
+Max IoU all ["3": 1.00]
+Max IoU targets ["3": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [3, 4, 12]
+Top-4 IoU is ['1.00', '0.00', '0.11']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0645_00
+query: Mirror in the bathroom
+[GPT] pred_target_class: mirror
+Matched target classes: {'mirror'}
+gt_object_name: mirror
+Matched targets ids: [11, 72]
+Max IoU all ["72": 1.00]
+Max IoU targets ["72": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [11, 72]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0025_00
+query: It is the cup closest to the chair.
+[GPT] pred_target_class: cup
+Matched target classes: {'cup'}
+gt_object_name: cup
+Matched targets ids: [31, 32]
+Max IoU all ["31": 1.00]
+Max IoU targets ["31": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [31, 32]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0648_00
+query: Looking at both books on the desk, it is the book on the right.
+[GPT] pred_target_class: book
+Matched target classes: {'book'}
+gt_object_name: book
+Matched targets ids: [12]
+Max IoU all ["6": 1.00]
+Max IoU targets ["12": 0.00]
+Only one matched target [12], skip ...
+SCENE_ID:scene0207_00
+query: Look for the window that is closer to the olive green sofa.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [3, 12, 13, 58]
+Max IoU all ["12": 1.00]
+Max IoU targets ["12": 1.00]
+[GPT] select view: top
+Use all 4 bboxes [3, 12, 13, 58]
+Top-4 IoU is ['0.00', '1.00', '0.00', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0648_00
+query: the shelf next to the bed on the desk
+[GPT] pred_target_class: shelf
+Matched target classes: {'shelf'}
+gt_object_name: shelf
+Matched targets ids: [13, 17, 22, 24]
+Max IoU all ["24": 1.00]
+Max IoU targets ["24": 1.00]
+[GPT] select view: right
+Use all 4 bboxes [13, 17, 22, 24]
+Top-4 IoU is ['0.00', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0221_00
+query: The bed next to the dresser, it is the pillow in the back, closest to the nightstand.
+[GPT] pred_target_class: pillow
+Matched target classes: {'pillow'}
+gt_object_name: pillow
+Matched targets ids: [39, 40, 41, 44, 45, 46]
+Max IoU all ["41": 1.00]
+Max IoU targets ["41": 1.00]
+[GPT] select view: right
+[GPT] select object: [40, 39, 41, 44]
+Top-4 IoU is ['0.01', '0.16', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0046_00
+query: The shoes closest to the window.
+[GPT] pred_target_class: shoes
+Matched target classes: {'shoe'}
+gt_object_name: shoes
+Matched targets ids: [48, 49, 55]
+Max IoU all ["49": 1.00]
+Max IoU targets ["49": 1.00]
+[GPT] select view: top
+Use all 3 bboxes [48, 49, 55]
+Top-4 IoU is ['0.09', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0196_00
+query: Face the door.  The table you want is across the room from the door, in the middle of the other two tables.
+[GPT] pred_target_class: table
+Matched target classes: {'table'}
+gt_object_name: table
+Matched targets ids: [1, 2, 3, 4, 5]
+Max IoU all ["2": 1.00]
+Max IoU targets ["2": 1.00]
+[GPT] select view: left
+[GPT] select object: [2, 3, 4, 5]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0025_00
+query: Facing the windows, the window to the left.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [22, 23]
+Max IoU all ["21": 1.00]
+Max IoU targets ["22": 0.02]
+[GPT] select view: right
+Use all 2 bboxes [22, 23]
+Top-4 IoU is ['0.02', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0607_00
+query: facing the sinks, choose the one on the right
+[GPT] pred_target_class: sink
+Matched target classes: {'sink'}
+gt_object_name: sink
+Matched targets ids: [16, 17]
+Max IoU all ["16": 1.00]
+Max IoU targets ["16": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [16, 17]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0278_00
+query: trash can closest to the copier.
+[GPT] pred_target_class: trash can
+Matched target classes: {'trash can'}
+gt_object_name: trash can
+Matched targets ids: [4]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+Only one matched target [4], skip ...
+SCENE_ID:scene0081_00
+query: The small blue couch that is on the end.
+[GPT] pred_target_class: couch
+Matched target classes: {'couch'}
+gt_object_name: couch
+Matched targets ids: [0, 7]
+Max IoU all ["8": 1.00]
+Max IoU targets ["7": 0.02]
+[GPT] select view: right
+Use all 2 bboxes [0, 7]
+Top-4 IoU is ['0.00', '0.02']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0030_00
+query: When facing the three windows, you need to choose the one all the way to the left
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [26, 58]
+Max IoU all ["26": 1.00]
+Max IoU targets ["26": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [26, 58]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0568_00
+query: the blue toddler chair that does not have a disney cars theme. it is right in front of the curtains.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [0, 1, 2, 15]
+Max IoU all ["2": 1.00]
+Max IoU targets ["2": 1.00]
+[GPT] select view: up
+Use all 4 bboxes [0, 1, 2, 15]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0427_00
+query: Facing the door, the bottom left chair.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [4, 5, 6, 7]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+[GPT] select view: top
+Use all 4 bboxes [4, 5, 6, 7]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0458_00
+query: The bottle is the only one sitting on the bathroom counter next to the sink
+[GPT] pred_target_class: bottle
+Matched target classes: {'bottle'}
+gt_object_name: bottle
+Matched targets ids: [25, 28, 29, 32]
+Max IoU all ["18": 1.00]
+Max IoU targets ["25": 0.00]
+[GPT] select view: down
+Use all 4 bboxes [25, 28, 29, 32]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0598_00
+query: Facing the bookshelves, the chair in the lower right corner.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [7, 8, 9, 10, 11, 12]
+Max IoU all ["7": 1.00]
+Max IoU targets ["7": 1.00]
+[GPT] select view: left
+[GPT] select object: [7, 10, 9, 8]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0591_00
+query: Facing the plants, the plant on the right.
+[GPT] pred_target_class: plant
+Matched target classes: {'plant'}
+gt_object_name: plant
+Matched targets ids: [26, 27]
+Max IoU all ["26": 1.00]
+Max IoU targets ["26": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [26, 27]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0221_00
+query: the chair is underneath the brown table in front bed
+[GPT] pred_target_class: chair
+Matched target classes: {'office chair', 'chair'}
+gt_object_name: chair
+Matched targets ids: [3, 4, 29, 35]
+Max IoU all ["29": 1.00]
+Max IoU targets ["29": 1.00]
+[GPT] select view: up
+Use all 4 bboxes [3, 4, 29, 35]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0353_00
+query: This backpack is closer to the tall brown 'wardrobe cabinet'.
+[GPT] pred_target_class: backpack
+Matched target classes: {'backpack'}
+gt_object_name: backpack
+Matched targets ids: [33, 54]
+Max IoU all ["32": 1.00]
+Max IoU targets ["33": 0.10]
+[GPT] select view: right
+Use all 2 bboxes [33, 54]
+Top-4 IoU is ['0.10', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0149_00
+query: The kitchen cabinet located above the oven
+[GPT] pred_target_class: cabinet
+Matched target classes: {'cabinet', 'kitchen cabinet'}
+gt_object_name: kitchen cabinets
+Matched targets ids: [2, 4, 8, 9, 10, 22, 25]
+Max IoU all ["8": 1.00]
+Max IoU targets ["8": 1.00]
+[GPT] select view: right
+[GPT] select object: [8, 2, 4, 25]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0329_00
+query: The blue trash can to the left of the grey trash can.
+[GPT] pred_target_class: trash can
+Matched target classes: {'trash can'}
+gt_object_name: trash can
+Matched targets ids: [14, 25]
+Max IoU all ["14": 1.00]
+Max IoU targets ["14": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [14, 25]
+Top-4 IoU is ['1.00', '0.09']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0030_00
+query: it is the small bookshelf located between the two larger bookshelves
+[GPT] pred_target_class: bookshelf
+Matched target classes: {'bookshelf'}
+gt_object_name: bookshelf
+Matched targets ids: [17, 18, 20, 68]
+Max IoU all ["68": 1.00]
+Max IoU targets ["68": 1.00]
+[GPT] select view: right
+Use all 4 bboxes [17, 18, 20, 68]
+Top-4 IoU is ['0.04', '0.02', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0011_00
+query: This trashcan is by a double door.
+[GPT] pred_target_class: trashcan
+Matched target classes: set()
+gt_object_name: trash can
+Matched targets ids: []
+Max IoU all ["32": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: left
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [15, 3, 18, 32]
+Top-4 IoU is ['0.00', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0643_00
+query: the book closest to the windows
+[GPT] pred_target_class: book
+Matched target classes: {'book'}
+gt_object_name: book
+Matched targets ids: [22]
+Max IoU all ["27": 1.00]
+Max IoU targets ["22": 0.00]
+Only one matched target [22], skip ...
+SCENE_ID:scene0207_00
+query: The only office style chair in the room
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [11, 69]
+Max IoU all ["11": 1.00]
+Max IoU targets ["11": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [11, 69]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0246_00
+query: The light in the middle of the room on the ceiling
+[GPT] pred_target_class: light
+Matched target classes: {'light'}
+gt_object_name: light
+Matched targets ids: [26]
+Max IoU all ["2": 1.00]
+Max IoU targets ["26": 0.00]
+Only one matched target [26], skip ...
+SCENE_ID:scene0608_00
+query: I am the ottoman closest to the coffee table
+[GPT] pred_target_class: ottoman
+Matched target classes: {'ottoman'}
+gt_object_name: ottoman
+Matched targets ids: [8]
+Max IoU all ["9": 1.00]
+Max IoU targets ["8": 0.00]
+Only one matched target [8], skip ...
+SCENE_ID:scene0700_00
+query: Backpack is furthest away from window,closest to the bookshelf
+[GPT] pred_target_class: backpack
+Matched target classes: {'backpack'}
+gt_object_name: backpack
+Matched targets ids: [5, 6]
+Max IoU all ["6": 1.00]
+Max IoU targets ["6": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [5, 6]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0050_00
+query: The doors closest to the chair.
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: doors
+Matched targets ids: [9, 10, 32]
+Max IoU all ["8": 1.00]
+Max IoU targets ["9": 0.00]
+[GPT] select view: left
+Use all 3 bboxes [9, 10, 32]
+Top-4 IoU is ['0.00', '0.00', '0.00']   ['False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0077_00
+query: the door directly opposite the window
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [9, 20]
+Max IoU all ["9": 1.00]
+Max IoU targets ["9": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [9, 20]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0527_00
+query: It is the towel on the wall that is the furthest from the sinks.
+[GPT] pred_target_class: towel
+Matched target classes: {'towel'}
+gt_object_name: towel
+Matched targets ids: [1, 11, 12, 23]
+Max IoU all ["23": 1.00]
+Max IoU targets ["23": 1.00]
+[GPT] select view: up
+Use all 4 bboxes [1, 11, 12, 23]
+Top-4 IoU is ['0.00', '0.08', '0.09', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0251_00
+query: the door between grey trash can and two folding tables
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [13, 14]
+Max IoU all ["13": 1.00]
+Max IoU targets ["13": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [13, 14]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0474_00
+query: The monitor that is the only one on the side of the room without the man.
+[GPT] pred_target_class: monitor
+Matched target classes: {'monitor'}
+gt_object_name: monitor
+Matched targets ids: [10, 11]
+Max IoU all ["41": 1.00]
+Max IoU targets ["10": 0.00]
+[GPT] select view: left
+Use all 2 bboxes [10, 11]
+Top-4 IoU is ['0.00', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0030_00
+query: When facing the wall of bookshelves, choose the box to the  left.
+[GPT] pred_target_class: box
+Matched target classes: {'box'}
+gt_object_name: bookshelf
+Matched targets ids: [32, 34, 35, 36, 37, 61, 62, 63]
+Max IoU all ["18": 1.00]
+Max IoU targets ["32": 0.00]
+[GPT] select view: right
+[GPT] select object: [61, 62, 63, 32]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0426_00
+query: Find the monitor that sits on the table near the window blinds.
+[GPT] pred_target_class: monitor
+Matched target classes: {'monitor'}
+gt_object_name: monitor
+Matched targets ids: [16, 38, 39]
+Max IoU all ["16": 1.00]
+Max IoU targets ["16": 1.00]
+[GPT] select view: down
+Use all 3 bboxes [16, 38, 39]
+Top-4 IoU is ['1.00', '0.00', '0.00']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0222_00
+query: this desk is longer and located at the foot of the bed. It is located on the opposite wall from the door.
+[GPT] pred_target_class: desk
+Matched target classes: {'desk'}
+gt_object_name: desk
+Matched targets ids: [13]
+Max IoU all ["13": 1.00]
+Max IoU targets ["13": 1.00]
+Only one matched target [13], skip ...
+SCENE_ID:scene0608_00
+query: When standing in the middle of the room facing the  plants, the correct one is on the left. Above the TV.
+[GPT] pred_target_class: unknown
+Matched target classes: set()
+gt_object_name: plant
+Matched targets ids: []
+Max IoU all ["14": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: up
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [14, 15, 16, 17]
+Top-4 IoU is ['1.00', '0.00', '0.01', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0353_00
+query: choose the book on the bottom bunk, closest to the outside of the bunk.
+[GPT] pred_target_class: book
+Matched target classes: {'book'}
+gt_object_name: book
+Matched targets ids: [9, 14, 35, 52]
+Max IoU all ["35": 1.00]
+Max IoU targets ["35": 1.00]
+[GPT] select view: up
+Use all 4 bboxes [9, 14, 35, 52]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0670_00
+query: the towel on the left side of the oven door
+[GPT] pred_target_class: towel
+Matched target classes: {'towel'}
+gt_object_name: towel
+Matched targets ids: [14, 22]
+Max IoU all ["13": 1.00]
+Max IoU targets ["14": 0.00]
+[GPT] select view: left
+Use all 2 bboxes [14, 22]
+Top-4 IoU is ['0.00', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0328_00
+query: This sign is next to the sink and on the counter.
+[GPT] pred_target_class: sign
+Matched target classes: {'sign'}
+gt_object_name: sign
+Matched targets ids: [27, 28]
+Max IoU all ["28": 1.00]
+Max IoU targets ["28": 1.00]
+[GPT] select view: right
+Use all 2 bboxes [27, 28]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0086_00
+query: the rail directly above the toilet
+[GPT] pred_target_class: rail
+Matched target classes: set()
+gt_object_name: rail
+Matched targets ids: []
+Max IoU all ["16": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: right
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [16]
+Top-4 IoU is ['1.00']   ['True']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0351_00
+query: the keyboard that is NOT in front of the whiteboard.
+[GPT] pred_target_class: keyboard
+Matched target classes: {'keyboard'}
+gt_object_name: keyboard
+Matched targets ids: [18, 21]
+Max IoU all ["18": 1.00]
+Max IoU targets ["18": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [18, 21]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0389_00
+query: The door that has a painting to the left of it.
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [7, 12]
+Max IoU all ["12": 1.00]
+Max IoU targets ["12": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [7, 12]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0591_00
+query: The pillow is yellow and standing upright on the couch, not laying down
+[GPT] pred_target_class: pillow
+Matched target classes: {'pillow'}
+gt_object_name: pillow
+Matched targets ids: [14, 16]
+Max IoU all ["16": 1.00]
+Max IoU targets ["16": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [14, 16]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0651_00
+query: Facing the refrigerator, the chair to the far right.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [7, 8, 10]
+Max IoU all ["9": 1.00]
+Max IoU targets ["7": 0.00]
+[GPT] select view: left
+Use all 3 bboxes [7, 8, 10]
+Top-4 IoU is ['0.00', '0.00', '0.00']   ['False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0645_00
+query: The armchair that is right in the corner
+[GPT] pred_target_class: armchair
+Matched target classes: {'armchair'}
+gt_object_name: armchair
+Matched targets ids: [23]
+Max IoU all ["23": 1.00]
+Max IoU targets ["23": 1.00]
+Only one matched target [23], skip ...
+SCENE_ID:scene0412_00
+query: the trash bin in the right corner behind the blue trash can
+[GPT] pred_target_class: trash bin
+Matched target classes: {'storage bin', 'trash can', 'recycling bin'}
+gt_object_name: trash can
+Matched targets ids: [0, 5, 11, 13, 14, 15, 16]
+Max IoU all ["15": 1.00]
+Max IoU targets ["15": 1.00]
+[GPT] select view: right
+[GPT] select object: [16, 15, 14, 13]
+Top-4 IoU is ['0.00', '1.00', '0.04', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0598_00
+query: Chair against the wall, closest to the window
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [7, 8, 9, 10, 11, 12]
+Max IoU all ["11": 1.00]
+Max IoU targets ["11": 1.00]
+[GPT] select view: top
+[GPT] select object: [7, 10, 9, 8]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0643_00
+query: The book is on the white shelf near the desk
+[GPT] pred_target_class: book
+Matched target classes: {'book'}
+gt_object_name: book
+Matched targets ids: [22]
+Max IoU all ["27": 1.00]
+Max IoU targets ["22": 0.00]
+Only one matched target [22], skip ...
+SCENE_ID:scene0208_00
+query: This is the angled bookshelf far away from the corner of bookshelfs
+[GPT] pred_target_class: bookshelf
+Matched target classes: {'bookshelf'}
+gt_object_name: bookshelf
+Matched targets ids: [0, 1, 2, 3]
+Max IoU all ["106": 1.00]
+Max IoU targets ["0": 0.00]
+[GPT] select view: right
+Use all 4 bboxes [0, 1, 2, 3]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0343_00
+query: The middle rolling cart, white in color, next to the teal and tan
+[GPT] pred_target_class: cart
+Matched target classes: {'cart'}
+gt_object_name: cart
+Matched targets ids: [9]
+Max IoU all ["8": 1.00]
+Max IoU targets ["9": 0.02]
+Only one matched target [9], skip ...
+SCENE_ID:scene0693_00
+query: The soap dish on the left side of the sink
+[GPT] pred_target_class: soap dish
+Matched target classes: {'soap dish'}
+gt_object_name: soap dish
+Matched targets ids: [17, 18]
+Max IoU all ["18": 1.00]
+Max IoU targets ["18": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [17, 18]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0607_00
+query: the sink is to the right of the metal thing on the wall and on the right of the sink on the wall is so meting white and elongated. also to the right of the sink are plastic containers.
+[GPT] pred_target_class: sink
+Matched target classes: {'sink'}
+gt_object_name: sink
+Matched targets ids: [16, 17]
+Max IoU all ["16": 1.00]
+Max IoU targets ["16": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [16, 17]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0648_00
+query: Shelf up above the bed
+[GPT] pred_target_class: shelf
+Matched target classes: {'shelf'}
+gt_object_name: shelf
+Matched targets ids: [13, 17, 22, 24]
+Max IoU all ["23": 1.00]
+Max IoU targets ["13": 0.00]
+[GPT] select view: left
+Use all 4 bboxes [13, 17, 22, 24]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0580_00
+query: Standing at the window, facing the doors, it is the one on the left.
+[GPT] pred_target_class: unknown
+Matched target classes: set()
+gt_object_name: door
+Matched targets ids: []
+Max IoU all ["25": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: left
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [4, 1, 3, 15]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0353_00
+query: Looking straight at the orange towel, the desk on the right.
+[GPT] pred_target_class: desk
+Matched target classes: {'desk'}
+gt_object_name: desk
+Matched targets ids: [2, 17, 47, 50]
+Max IoU all ["50": 1.00]
+Max IoU targets ["50": 1.00]
+[GPT] select view: up
+Use all 4 bboxes [2, 17, 47, 50]
+Top-4 IoU is ['0.00', '0.00', '0.12', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0100_00
+query: The cup in the middle
+[GPT] pred_target_class: cup
+Matched target classes: {'cup'}
+gt_object_name: cup
+Matched targets ids: [3, 18, 19]
+Max IoU all ["18": 1.00]
+Max IoU targets ["18": 1.00]
+[GPT] select view: top
+Use all 3 bboxes [3, 18, 19]
+Top-4 IoU is ['0.00', '1.00', '0.01']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0231_00
+query: Facing the wall with two pictures, the picture on the right.
+[GPT] pred_target_class: picture
+Matched target classes: {'picture'}
+gt_object_name: picture
+Matched targets ids: [16, 17, 20, 45]
+Max IoU all ["20": 1.00]
+Max IoU targets ["20": 1.00]
+[GPT] select view: left
+Use all 4 bboxes [16, 17, 20, 45]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0550_00
+query: toilet paper on top of the paper towel dispenser, its the one at the bottom, closest to the window
+[GPT] pred_target_class: toilet paper
+Matched target classes: {'paper towel dispenser', 'toilet', 'toilet paper', 'toilet paper dispenser'}
+gt_object_name: toilet paper
+Matched targets ids: [5, 11, 12, 18]
+Max IoU all ["18": 1.00]
+Max IoU targets ["18": 1.00]
+[GPT] select view: top
+Use all 4 bboxes [5, 11, 12, 18]
+Top-4 IoU is ['0.00', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0565_00
+query: Facing the boxes, the rightmost one that is in front of a green chair.
+[GPT] pred_target_class: box
+Matched target classes: {'box'}
+gt_object_name: box
+Matched targets ids: [6, 26]
+Max IoU all ["7": 1.00]
+Max IoU targets ["6": 0.00]
+[GPT] select view: left
+Use all 2 bboxes [6, 26]
+Top-4 IoU is ['0.00', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0644_00
+query: closest cabinet to door
+[GPT] pred_target_class: cabinet
+Matched target classes: {'cabinet'}
+gt_object_name: cabinet
+Matched targets ids: [8]
+Max IoU all ["8": 1.00]
+Max IoU targets ["8": 1.00]
+Only one matched target [8], skip ...
+SCENE_ID:scene0149_00
+query: The kitchen cabinets, sink, and counter plus part of the floor
+[GPT] pred_target_class: unknown
+Matched target classes: set()
+gt_object_name: kitchen counter
+Matched targets ids: []
+Max IoU all ["0": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: top
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [0, 10, 4, 9]
+Top-4 IoU is ['1.00', '0.01', '0.00', '0.08']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0462_00
+query: The smaller white colored box against the wall next to the green bucket
+[GPT] pred_target_class: box
+Matched target classes: {'box'}
+gt_object_name: box
+Matched targets ids: [1, 15]
+Max IoU all ["21": 1.00]
+Max IoU targets ["1": 0.11]
+[GPT] select view: up
+Use all 2 bboxes [1, 15]
+Top-4 IoU is ['0.11', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0598_00
+query: If you are facing the monitors, select the mouse that goes with the computer on the left
+[GPT] pred_target_class: mouse
+Matched target classes: {'mouse'}
+gt_object_name: mouse
+Matched targets ids: [16, 17]
+Max IoU all ["16": 1.00]
+Max IoU targets ["16": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [16, 17]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0663_00
+query: Choose the monitor that's closest to the windows.
+[GPT] pred_target_class: monitor
+Matched target classes: {'monitor'}
+gt_object_name: monitor
+Matched targets ids: [10, 11, 28]
+Max IoU all ["10": 1.00]
+Max IoU targets ["10": 1.00]
+[GPT] select view: up
+Use all 3 bboxes [10, 11, 28]
+Top-4 IoU is ['1.00', '0.00', '0.10']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0343_00
+query: Facing the tables, the second table from the left.
+[GPT] pred_target_class: table
+Matched target classes: {'coffee table', 'table'}
+gt_object_name: table
+Matched targets ids: [11, 15, 16]
+Max IoU all ["15": 1.00]
+Max IoU targets ["15": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [11, 15, 16]
+Top-4 IoU is ['0.00', '1.00', '0.04']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0607_00
+query: The chair is in front of the table brown cabinet by sink
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [6, 7, 8, 9, 10, 11]
+Max IoU all ["9": 1.00]
+Max IoU targets ["9": 1.00]
+[GPT] select view: left
+[GPT] select object: [7, 6, 8, 11]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0030_00
+query: The table is the shorter lighter one with the pulled out chair at it
+[GPT] pred_target_class: table
+Matched target classes: {'table'}
+gt_object_name: table
+Matched targets ids: [47, 48, 49, 50, 51]
+Max IoU all ["48": 1.00]
+Max IoU targets ["48": 1.00]
+[GPT] select view: top
+[GPT] select object: [48, 49, 50, 47]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0553_00
+query: WHITE ITEM, RESTING ON TOP OF PAPER TOWEL DISPENSER, CLOSE TO THE DOOR.
+[GPT] pred_target_class: unknown
+Matched target classes: set()
+gt_object_name: toilet paper
+Matched targets ids: []
+Max IoU all ["10": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: up
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [10, 5, 9, 11]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0645_00
+query: The correct trash can is NOT in the bathroom.
+[GPT] pred_target_class: trash can
+Matched target classes: {'trash can'}
+gt_object_name: trash can
+Matched targets ids: [10, 19, 77]
+Max IoU all ["29": 1.00]
+Max IoU targets ["10": 0.41]
+[GPT] select view: top
+Use all 3 bboxes [10, 19, 77]
+Top-4 IoU is ['0.41', '0.00', '0.00']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0307_00
+query: Choose the shelf next to the blue shower.
+[GPT] pred_target_class: shelf
+Matched target classes: {'shelf'}
+gt_object_name: shelf
+Matched targets ids: [24, 26]
+Max IoU all ["24": 1.00]
+Max IoU targets ["24": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [24, 26]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0427_00
+query: Chair next to the whiteboard.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [4, 5, 6, 7]
+Max IoU all ["6": 1.00]
+Max IoU targets ["6": 1.00]
+[GPT] select view: left
+Use all 4 bboxes [4, 5, 6, 7]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0568_00
+query: When facing the play carpet, it's the chair to the left not in the corner.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [0, 1, 2, 15]
+Max IoU all ["0": 1.00]
+Max IoU targets ["0": 1.00]
+[GPT] select view: left
+Use all 4 bboxes [0, 1, 2, 15]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.02']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0086_00
+query: middle of the bar directly above the toilet flushing part
+[GPT] pred_target_class: unknown
+Matched target classes: set()
+gt_object_name: rail
+Matched targets ids: []
+Max IoU all ["16": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: right
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [5, 16, 6, 17]
+Top-4 IoU is ['0.00', '1.00', '0.00', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0583_00
+query: The door along the wall WITH the open door (it is not the open door)
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [0, 1, 3, 8, 12]
+Max IoU all ["12": 1.00]
+Max IoU targets ["12": 1.00]
+[GPT] select view: up
+[GPT] select object: [8, 12, 3, 0]
+Top-4 IoU is ['0.00', '1.00', '0.00', '0.04']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0549_00
+query: The window near the table, not the one near the shelves.
+[GPT] pred_target_class: window
+Matched target classes: {'window'}
+gt_object_name: window
+Matched targets ids: [29, 30, 31]
+Max IoU all ["30": 1.00]
+Max IoU targets ["30": 1.00]
+[GPT] select view: up
+Use all 3 bboxes [29, 30, 31]
+Top-4 IoU is ['0.07', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0063_00
+query: if we face the small yellow table the chair to the far right
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [4, 5, 6, 7]
+Max IoU all ["5": 1.00]
+Max IoU targets ["5": 1.00]
+[GPT] select view: top
+Use all 4 bboxes [4, 5, 6, 7]
+Top-4 IoU is ['0.00', '1.00', '0.00', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0648_00
+query: Find the backpack that is in between the desk and the fan.
+[GPT] pred_target_class: backpack
+Matched target classes: {'backpack'}
+gt_object_name: backpack
+Matched targets ids: [4, 38]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [4, 38]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0046_00
+query: Find the backpack that is farthest away from the window.
+[GPT] pred_target_class: backpack
+Matched target classes: set()
+gt_object_name: backpack
+Matched targets ids: []
+Max IoU all ["50": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: up
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [14, 15]
+Top-4 IoU is ['0.00', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0697_00
+query: The darker brown nightstand beside the bed with a lamp sitting on top
+[GPT] pred_target_class: nightstand
+Matched target classes: {'nightstand'}
+gt_object_name: nightstand
+Matched targets ids: [6]
+Max IoU all ["6": 1.00]
+Max IoU targets ["6": 1.00]
+Only one matched target [6], skip ...
+SCENE_ID:scene0300_00
+query: It is the brown table with a bag on it.
+[GPT] pred_target_class: table
+Matched target classes: {'table'}
+gt_object_name: table
+Matched targets ids: [5, 6]
+Max IoU all ["6": 1.00]
+Max IoU targets ["6": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [5, 6]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0643_00
+query: The desk that has something teal/light blue sitting on it
+[GPT] pred_target_class: desk
+Matched target classes: {'desk'}
+gt_object_name: desk
+Matched targets ids: [0, 20, 31, 40]
+Max IoU all ["0": 1.00]
+Max IoU targets ["0": 1.00]
+[GPT] select view: top
+Use all 4 bboxes [0, 20, 31, 40]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0648_00
+query: The dresser underneath the bed with a purple covering.
+[GPT] pred_target_class: dresser
+Matched target classes: set()
+gt_object_name: dresser
+Matched targets ids: []
+Max IoU all ["28": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: left
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [28, 39, 38, 26]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0427_00
+query: chair near the table facing the chair in the corner
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [4, 5, 6, 7]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+[GPT] select view: up
+Use all 4 bboxes [4, 5, 6, 7]
+Top-4 IoU is ['1.00', '0.00', '0.00', '0.00']   ['True', 'False', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0644_00
+query: When facing the wall with two white boards, so that the door is at your right, select the whiteboard on the right
+[GPT] pred_target_class: whiteboard
+Matched target classes: {'whiteboard'}
+gt_object_name: whiteboard
+Matched targets ids: [60]
+Max IoU all ["35": 1.00]
+Max IoU targets ["60": 0.00]
+Only one matched target [60], skip ...
+SCENE_ID:scene0314_00
+query: Facing the shelves, choose the chair on the right closest to you.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: office chair
+Matched targets ids: [3, 7, 8]
+Max IoU all ["8": 1.00]
+Max IoU targets ["8": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [3, 7, 8]
+Top-4 IoU is ['0.00', '0.00', '1.00']   ['False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0565_00
+query: box surrounds door with glass inset
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [19, 20]
+Max IoU all ["20": 1.00]
+Max IoU targets ["20": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [19, 20]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0077_00
+query: If facing the wall with the yellow page and mirror, its the door on the right.
+[GPT] pred_target_class: door
+Matched target classes: {'door'}
+gt_object_name: door
+Matched targets ids: [9, 20]
+Max IoU all ["20": 1.00]
+Max IoU targets ["20": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [9, 20]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0314_00
+query: Of the two chairs that are next to each other, choose the one in front of the monitor.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: office chair
+Matched targets ids: [3, 7, 8]
+Max IoU all ["7": 1.00]
+Max IoU targets ["7": 1.00]
+[GPT] select view: up
+Use all 3 bboxes [3, 7, 8]
+Top-4 IoU is ['0.00', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0518_00
+query: large cabinet that is NOT above the desk
+[GPT] pred_target_class: cabinet
+Matched target classes: set()
+gt_object_name: cabinet
+Matched targets ids: []
+Max IoU all ["13": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: left
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [1, 19, 20, 13]
+Top-4 IoU is ['0.01', '0.00', '0.00', '1.00']   ['False', 'False', 'False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0645_00
+query: This lamp is on a table between the beds.
+[GPT] pred_target_class: lamp
+Matched target classes: {'lamp'}
+gt_object_name: lamp
+Matched targets ids: [12, 33, 34]
+Max IoU all ["33": 1.00]
+Max IoU targets ["33": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [12, 33, 34]
+Top-4 IoU is ['0.00', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0648_00
+query: it is the chair closest to the exit doorway
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [25, 26]
+Max IoU all ["25": 1.00]
+Max IoU targets ["25": 1.00]
+[GPT] select view: right
+Use all 2 bboxes [25, 26]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0307_00
+query: select the sink further from the washer
+[GPT] pred_target_class: sink
+Matched target classes: {'sink'}
+gt_object_name: sink
+Matched targets ids: [4, 5, 23]
+Max IoU all ["5": 1.00]
+Max IoU targets ["5": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [4, 5, 23]
+Top-4 IoU is ['0.00', '1.00', '0.05']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0063_00
+query: the microwave on the light brown desk
+[GPT] pred_target_class: microwave
+Matched target classes: {'microwave'}
+gt_object_name: microwave
+Matched targets ids: [3]
+Max IoU all ["3": 1.00]
+Max IoU targets ["3": 1.00]
+Only one matched target [3], skip ...
+SCENE_ID:scene0633_00
+query: The box/shelf you want is right next to the chair in the corner with the pillow.  It's almost touching the chair.
+[GPT] pred_target_class: unknown
+Matched target classes: set()
+gt_object_name: shelf
+Matched targets ids: []
+Max IoU all ["25": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: down
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [10, 22, 9, 5]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0474_00
+query: The backpack closest to the windows.
+[GPT] pred_target_class: backpack
+Matched target classes: {'backpack'}
+gt_object_name: backpack
+Matched targets ids: [8, 39]
+Max IoU all ["9": 1.00]
+Max IoU targets ["8": 0.00]
+[GPT] select view: up
+Use all 2 bboxes [8, 39]
+Top-4 IoU is ['0.00', '0.00']   ['False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0535_00
+query: The correct box is in the middle.
+[GPT] pred_target_class: box
+Matched target classes: {'box'}
+gt_object_name: box
+Matched targets ids: [23, 29, 30]
+Max IoU all ["29": 1.00]
+Max IoU targets ["29": 1.00]
+[GPT] select view: up
+Use all 3 bboxes [23, 29, 30]
+Top-4 IoU is ['0.00', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0084_00
+query: The middle option near the paper towels
+[GPT] pred_target_class: unknown
+Matched target classes: set()
+gt_object_name: toilet paper
+Matched targets ids: []
+Max IoU all ["7": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: top
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [25, 24, 30, 19]
+Top-4 IoU is ['0.00', '0.00', '0.00', '0.00']   ['False', 'False', 'False', 'False']
+in_top_1: False, in_top_k: False
+SCENE_ID:scene0025_00
+query: This couch is not next to a tall shelf unit.
+[GPT] pred_target_class: couch
+Matched target classes: {'couch'}
+gt_object_name: couch
+Matched targets ids: [3, 4]
+Max IoU all ["4": 1.00]
+Max IoU targets ["4": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [3, 4]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0598_00
+query: If you are standing in the middle of the room facing the two monitors, you are looking for the monitor on your right.
+[GPT] pred_target_class: monitor
+Matched target classes: {'monitor'}
+gt_object_name: monitor
+Matched targets ids: [2, 3]
+Max IoU all ["3": 1.00]
+Max IoU targets ["3": 1.00]
+[GPT] select view: up
+Use all 2 bboxes [2, 3]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0187_00
+query: the chair withh nothing colorful around it
+[GPT] pred_target_class: chair
+Matched target classes: {'sofa chair', 'chair'}
+gt_object_name: chair
+Matched targets ids: [1, 13, 14]
+Max IoU all ["1": 1.00]
+Max IoU targets ["1": 1.00]
+[GPT] select view: left
+Use all 3 bboxes [1, 13, 14]
+Top-4 IoU is ['1.00', '0.00', '0.00']   ['True', 'False', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0435_00
+query: These shoes are adjacent to the nearby door rather than in front of it.
+[GPT] pred_target_class: shoes
+Matched target classes: {'shoe'}
+gt_object_name: shoes
+Matched targets ids: [16, 17]
+Max IoU all ["16": 1.00]
+Max IoU targets ["16": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [16, 17]
+Top-4 IoU is ['1.00', '0.06']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0494_00
+query: Choose the chair that is closest to the trash can.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [1, 2, 3, 11]
+Max IoU all ["2": 1.00]
+Max IoU targets ["2": 1.00]
+[GPT] select view: right
+Use all 4 bboxes [1, 2, 3, 11]
+Top-4 IoU is ['0.00', '1.00', '0.00', '0.00']   ['False', 'True', 'False', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0251_00
+query: Facing the chairs, this is the one on the left.
+[GPT] pred_target_class: chair
+Matched target classes: {'chair'}
+gt_object_name: chair
+Matched targets ids: [6, 7]
+Max IoU all ["6": 1.00]
+Max IoU targets ["6": 1.00]
+[GPT] select view: top
+Use all 2 bboxes [6, 7]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+SCENE_ID:scene0553_00
+query: Toilet paper located directly below the metal holding bar and directly to the left of the toilet.
+[GPT] pred_target_class: toilet paper
+Matched target classes: {'toilet paper dispenser', 'toilet', 'toilet paper'}
+gt_object_name: toilet paper
+Matched targets ids: [2, 8, 19]
+Max IoU all ["8": 1.00]
+Max IoU targets ["8": 1.00]
+[GPT] select view: down
+Use all 3 bboxes [2, 8, 19]
+Top-4 IoU is ['0.00', '1.00', '0.04']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0704_00
+query: The cabinets above the printer
+[GPT] pred_target_class: cabinet
+Matched target classes: {'cabinet', 'kitchen cabinet'}
+gt_object_name: cabinets
+Matched targets ids: [0, 5, 14, 24]
+Max IoU all ["14": 1.00]
+Max IoU targets ["14": 1.00]
+[GPT] select view: up
+Use all 4 bboxes [0, 5, 14, 24]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0050_00
+query: The laptop by the chair with the floral pattern
+[GPT] pred_target_class: laptop
+Matched target classes: {'laptop'}
+gt_object_name: laptop
+Matched targets ids: [25, 28]
+Max IoU all ["28": 1.00]
+Max IoU targets ["28": 1.00]
+[GPT] select view: down
+Use all 2 bboxes [25, 28]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0461_00
+query: The chair at the corner and there is a square table in front of it.
+[GPT] pred_target_class: chair
+Matched target classes: set()
+gt_object_name: armchair
+Matched targets ids: []
+Max IoU all ["2": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: down
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [1, 3, 2, 4]
+Top-4 IoU is ['0.00', '0.00', '1.00', '0.00']   ['False', 'False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0011_00
+query: cabinet closest to the TV
+[GPT] pred_target_class: cabinet
+Matched target classes: {'cabinet', 'kitchen cabinet'}
+gt_object_name: cabinet
+Matched targets ids: [1, 20]
+Max IoU all ["20": 1.00]
+Max IoU targets ["20": 1.00]
+[GPT] select view: left
+Use all 2 bboxes [1, 20]
+Top-4 IoU is ['0.00', '1.00']   ['False', 'True']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0221_00
+query: Looking at the beds head on, the bag nearest to the bed on the left.
+[GPT] pred_target_class: bag
+Matched target classes: {'paper bag', 'bag'}
+gt_object_name: bag
+Matched targets ids: [18, 19, 30]
+Max IoU all ["19": 1.00]
+Max IoU targets ["19": 1.00]
+[GPT] select view: right
+Use all 3 bboxes [18, 19, 30]
+Top-4 IoU is ['0.08', '1.00', '0.00']   ['False', 'True', 'False']
+in_top_1: False, in_top_k: True
+SCENE_ID:scene0146_00
+query: The longer rail furthest from sink
+[GPT] pred_target_class: rail
+Matched target classes: set()
+gt_object_name: rail
+Matched targets ids: []
+Max IoU all ["3": 1.00]
+Max IoU targets ["None": 0.00]
+[GPT] select view: down
+Matching failed! Using crop images for object id selection ...
+[GPT] select object: [3, 10]
+Top-4 IoU is ['1.00', '0.00']   ['True', 'False']
+in_top_1: True, in_top_k: True
+Number of easy: 136, number of hard: 114
+Number of vd: 96, number of vind: 154
+Overall: Acc@25: 37.60, Acc@50: 36.80
+Easy: Acc@25: 42.65, Acc@50: 41.18
+Hard: Acc@25: 31.58, Acc@50: 31.58
+ViewDependent: Acc@25: 38.54, Acc@50: 37.50
+ViewIndependent: Acc@25: 37.01, Acc@50: 36.36
+Overall Acc@25: Top1: 37.60, TopK: 79.20

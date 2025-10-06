@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the table in this query description: \"Choose the round table that is NOT in the corner.\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The query specifies finding a round table that is not in the corner. In the images, there are two round tables visible. One is placed in a corner, and the other is more centrally located in the room. The centrally located table is the one that fits the description of not being in the corner. View 0 provides the clearest and most direct top-down view of this centrally located round table, making it easy to identify its position relative to the room."
+    }
+]

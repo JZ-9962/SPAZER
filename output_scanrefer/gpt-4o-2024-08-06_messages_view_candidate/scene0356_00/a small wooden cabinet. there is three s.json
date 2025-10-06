@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the cabinet in this query description: \"a small wooden cabinet. there is three small bins near it.\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The target object is a small wooden cabinet with three small bins near it. In view 3, there is a small wooden cabinet visible with three bins nearby. This view provides a clear perspective of the cabinet and the bins, making it the most suitable choice for identifying the target object."
+    },
+    {
+        "role": "user",
+        "content": "Please select the object ID that best matches the given query description: \"a small wooden cabinet. there is three small bins near it.\".\nHere are two images. \nIn the global view image, the detected objects are annotated in different object IDs. \nAnd another image shows all detected objects cropped from 2D images. The same object is annotated in the same ID in two images.\nCarefully analyze the query text to identify key attributes of the target object. \nThen review the annotated 3D scene view and the cropped object images to select 5 object IDs that best matches the given query description.\nThe selected 5 object IDs should be sorted in descending order of confidence.\nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified and ranked the top 5 target object IDs.\n\"object_id\": 5 selected target object IDs. e.g., [1, 2, 3, 4, 5]\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The query describes a small wooden cabinet with three small bins nearby. In the global view image, object ID 3 appears to be a small wooden cabinet, and there are three bins (IDs 7, 10, and 15) nearby. The cropped images confirm that ID 3 is a wooden cabinet and IDs 7, 10, and 15 are bins. Therefore, ID 3 is the best match for the cabinet, and IDs 7, 10, and 15 are the bins. ID 0 is another wooden object but doesn't have bins nearby, so it is ranked lower."
+    }
+]

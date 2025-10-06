@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "You are good at finding the object in a 3D scene based on a given query description."
+    },
+    {
+        "role": "user",
+        "content": "These images show different views of a room. You need to find the keyboard in this query description: \"the keyboard that is NOT in front of the whiteboard.\". \nPlease review all view images to find the target object and select the view that you can see the target object most clearly. \nOutput your answer in JSON format with these keys: \n\"reasoning\": Explain how you identified the target object, and why you choose this view.\n\"view\": The number of the view is in the top left corner of the corresponding image. e.g., \"view\": \"2\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "In view 2, the whiteboard is clearly visible on the wall, and there is a keyboard in front of it. The task requires identifying the keyboard that is NOT in front of the whiteboard. In view 3, another keyboard is visible on a desk that is not in front of the whiteboard, making it the target object. This view provides a clear perspective of the room layout and the position of the keyboard relative to the whiteboard."
+    }
+]
