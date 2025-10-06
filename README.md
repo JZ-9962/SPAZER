@@ -67,3 +67,15 @@ We sincerely thank the following repositories for their valuable contributions a
 - [SeeGround](https://github.com/iris0329/SeeGround)
 - [ZSVG3D](https://github.com/CurryYuan/ZSVG3D)
 - [VLM-Grounder](https://github.com/InternRobotics/VLM-Grounder)
+
+### 📚 Citation
+
+If you find this work useful in your research, please consider citing:
+
+```bibtex
+@article{jin2025spazer,
+  title={SPAZER: Spatial-Semantic Progressive Reasoning Agent for Zero-shot 3D Visual Grounding},
+  author={Jin, Zhao and Tu, Rong-Cheng and Liao, Jingyi and Sun, Wenhao and Luo, Xiao and Liu, Shunyu and Tao, Dacheng},
+  journal={arXiv preprint arXiv:2506.21924},
+  year={2025}
+}
